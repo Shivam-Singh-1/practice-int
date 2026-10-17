@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>GenAI Interview Prep — MCQ Study App</title>
   <meta name="description" content="Offline-capable MCQ study app with 299 interview-style questions covering AI Agents, RAG, LLMs, Prompt Engineering, Agentic AI, and Production GenAI." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -95,6 +95,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 body {
@@ -102,7 +103,9 @@ body {
   background: var(--bg-base);
   color: var(--text-primary);
   line-height: 1.6;
-  min-height: 100vh;
+  height: 100%;
+  height: 100dvh;
+  min-height: -webkit-fill-available;
   display: flex;
   overflow: hidden;
 }
@@ -128,7 +131,8 @@ body {
 .sidebar {
   width: var(--sidebar-width);
   min-width: var(--sidebar-width);
-  height: 100vh;
+  height: 100%;
+  height: 100dvh;
   background: var(--bg-surface);
   border-right: 1px solid var(--border-subtle);
   display: flex;
@@ -296,6 +300,8 @@ body {
   flex: 1;
   overflow-y: auto;
   padding: var(--space-md) var(--space-lg);
+  padding-bottom: calc(var(--space-2xl) + 40px + env(safe-area-inset-bottom, 24px));
+  -webkit-overflow-scrolling: touch;
 }
 
 .topic-btn {
@@ -401,10 +407,16 @@ body {
    ============================================ */
 .main-content {
   flex: 1;
-  height: 100vh;
+  min-height: 0;
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  position: relative;
 }
 
 .main-header {
@@ -485,9 +497,54 @@ body {
 .questions-container {
   flex: 1;
   padding: var(--space-2xl);
+  padding-bottom: calc(var(--space-3xl) + 80px + env(safe-area-inset-bottom, 24px));
   max-width: 900px;
   margin: 0 auto;
   width: 100%;
+}
+
+/* Floating scroll to top button */
+.scroll-top-btn {
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom, 16px));
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), var(--shadow-glow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+}
+
+.scroll-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+}
+
+.scroll-top-btn:active {
+  transform: translateY(0) scale(0.95);
 }
 
 /* Welcome state */
@@ -844,13 +901,22 @@ body {
     position: fixed;
     left: 0;
     top: 0;
+    width: 82vw;
+    max-width: 320px;
+    height: 100%;
+    height: 100dvh;
     transform: translateX(-100%);
     z-index: 100;
-    box-shadow: var(--shadow-lg);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.6);
+    border-right: 1px solid var(--border-default);
   }
 
   .sidebar.open {
     transform: translateX(0);
+  }
+
+  .sidebar-topics {
+    padding-bottom: calc(var(--space-3xl) + 40px + env(safe-area-inset-bottom, 24px));
   }
 
   .sidebar-overlay.visible {
@@ -861,26 +927,112 @@ body {
     display: block;
   }
 
-  .questions-container {
-    padding: var(--space-lg);
+  .main-header {
+    padding: var(--space-md) var(--space-lg);
+    padding-top: calc(var(--space-md) + env(safe-area-inset-top, 0px));
+    gap: var(--space-sm);
   }
 
-  .main-header {
-    padding: var(--space-lg);
+  .main-title {
+    font-size: 1.05rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 38vw;
+  }
+
+  .main-actions {
+    flex-shrink: 0;
+  }
+
+  .action-btn {
+    padding: var(--space-xs) var(--space-md);
+    font-size: 0.78rem;
+  }
+
+  .questions-container {
+    padding: var(--space-md);
+    /* Guarantees the bottom card and answer explanations are never hidden behind mobile browser toolbars */
+    padding-bottom: calc(120px + env(safe-area-inset-bottom, 32px));
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .question-card {
     padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    border-radius: var(--radius-md);
+    word-break: break-word;
+  }
+
+  .question-text {
+    font-size: 1rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .option-btn {
+    font-size: 0.88rem;
+    padding: 14px 14px 14px 46px;
+    word-break: break-word;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .option-btn .option-letter {
+    left: 12px;
+  }
+
+  .reveal-box {
+    padding: var(--space-md) var(--space-lg);
+    font-size: 0.88rem;
+    word-break: break-word;
+  }
+
+  .doc-answer-text {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  .scroll-top-btn {
+    bottom: calc(16px + env(safe-area-inset-bottom, 16px));
+    right: 16px;
+    width: 42px;
+    height: 42px;
   }
 }
 
 @media (max-width: 480px) {
+  .main-header {
+    padding: var(--space-sm) var(--space-md);
+    padding-top: calc(var(--space-sm) + env(safe-area-inset-top, 0px));
+  }
+
   .main-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    max-width: 30vw;
   }
 
   .main-title .question-count {
     display: none;
+  }
+
+  .main-actions {
+    gap: var(--space-xs);
+  }
+
+  .action-btn {
+    padding: 6px 9px;
+    font-size: 0.74rem;
+    gap: 4px;
+  }
+
+  .questions-container {
+    padding: var(--space-sm);
+    padding-bottom: calc(130px + env(safe-area-inset-bottom, 32px));
+  }
+
+  .question-card {
+    padding: var(--space-md);
+    margin-bottom: var(--space-md);
   }
 
   .question-text {
@@ -888,9 +1040,50 @@ body {
   }
 
   .option-btn {
-    font-size: 0.85rem;
-    padding: var(--space-md) var(--space-md);
-    padding-left: 42px;
+    font-size: 0.84rem;
+    padding: 12px 10px 12px 42px;
+  }
+
+  .option-btn .option-letter {
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    font-size: 0.68rem;
+  }
+
+  .reveal-box {
+    padding: var(--space-md);
+    font-size: 0.84rem;
+  }
+
+  .reveal-label {
+    font-size: 0.64rem;
+  }
+
+  .doc-question-heading {
+    font-size: 0.88rem;
+  }
+
+  .doc-answer-text {
+    font-size: 0.82rem;
+  }
+
+  .welcome-state {
+    height: 55vh;
+    padding: var(--space-md);
+  }
+
+  .welcome-state .welcome-icon {
+    font-size: 42px;
+    margin-bottom: var(--space-md);
+  }
+
+  .welcome-state h2 {
+    font-size: 1.15rem;
+  }
+
+  .welcome-state p {
+    font-size: 0.82rem;
   }
 }
 
@@ -977,6 +1170,7 @@ body {
         <p>Pick a topic from the sidebar to start practicing with 299 interview-style questions from your study docs.</p>
       </div>
     </div>
+    <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top" title="Back to top">↑</button>
   </main>
 
   <script>
@@ -7347,6 +7541,8 @@ window.STUDY_TOPICS = [
   const statAnsweredEl = document.getElementById('stat-answered');
   const statCorrectEl = document.getElementById('stat-correct');
   const filterBtns = document.querySelectorAll('.filter-btn');
+  const mainContentEl = document.querySelector('.main-content');
+  const scrollTopBtn = document.getElementById('scroll-top-btn');
 
   // =========================================
   // RENDER: GLOBAL STATS
@@ -7406,6 +7602,9 @@ window.STUDY_TOPICS = [
     renderTopics();
     renderQuestions();
     renderGlobalStats();
+    if (mainContentEl) {
+      mainContentEl.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
@@ -7600,6 +7799,15 @@ window.STUDY_TOPICS = [
         // Show answer reveal section
         answerSection.style.display = 'block';
 
+        // Auto-scroll newly revealed explanation into view on mobile
+        setTimeout(() => {
+          const rect = answerSection.getBoundingClientRect();
+          const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+          if (rect.bottom > viewportHeight - 50) {
+            answerSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }, 80);
+
         renderGlobalStats();
         renderTopics();
       });
@@ -7708,6 +7916,21 @@ window.STUDY_TOPICS = [
   function closeSidebar() {
     sidebarEl.classList.remove('open');
     overlayEl.classList.remove('visible');
+  }
+
+  // Scroll to top button handler
+  if (scrollTopBtn && mainContentEl) {
+    mainContentEl.addEventListener('scroll', () => {
+      if (mainContentEl.scrollTop > 280) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    scrollTopBtn.addEventListener('click', () => {
+      mainContentEl.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   }
 
   // =========================================
