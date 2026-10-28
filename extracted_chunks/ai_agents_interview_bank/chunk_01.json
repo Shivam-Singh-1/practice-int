@@ -1,0 +1,33 @@
+{
+  "topicSlug": "ai_agents_interview_bank",
+  "topicName": "AI Agents Interview Bank",
+  "sourceFile": "AI_Agents_Interview_Bank.docx",
+  "chunkIndex": 1,
+  "totalChunks": 10,
+  "qaPairs": [
+    {
+      "question": "What is an AI Agent, and how is it different from a regular chatbot?",
+      "answer": "An AI Agent is an autonomous system that can perceive its environment, reason about it, make decisions, and take actions to achieve a goal - all with minimal human intervention. A chatbot simply takes input and returns output (one turn at a time). An agent can plan multi-step workflows, use external tools, remember past interactions, and self-correct when things go wrong.\nExample:\nChatbot: You ask 'Book me a flight' -> it says 'I can't do that.' AI Agent: You ask 'Book me a flight' -> it checks your calendar, searches flights, compares prices, picks the best option, and books it - all autonomously.\nInterview Tip: Always mention the 3 pillars - Perception, Reasoning, Action. That's what separates an agent from a simple LLM wrapper."
+    },
+    {
+      "question": "What is the ReAct (Reasoning + Acting) pattern in AI Agents?",
+      "answer": "ReAct is a prompting framework where the agent alternates between Thought (reasoning about what to do), Action (calling a tool or API), and Observation (reading the result). This loop continues until the agent reaches a final answer. It combines chain-of-thought reasoning with tool use, making the agent both a thinker and a doer.\nExample:\nUser: 'What is the weather in Tokyo and should I carry an umbrella?' Thought: I need to check Tokyo weather first. Action: call_weather_api('Tokyo') Observation: 28C, 80% chance of rain Thought: High rain probability, I should recommend umbrella. Final Answer: 'It is 28C in Tokyo with 80% chance of rain. Yes, carry an umbrella.'\nInterview Tip: Draw the Thought -> Action -> Observation loop on a whiteboard. Interviewers love visual explanations."
+    },
+    {
+      "question": "What is the difference between Reactive and Proactive agents?",
+      "answer": "Reactive agents respond only when triggered - they wait for input and then act. Proactive agents can initiate actions on their own based on goals, schedules, or environment changes. Most production agents today are a hybrid - they react to user input but can also proactively monitor, alert, and execute tasks autonomously.\nExample:\nReactive: A customer support agent that answers only when a user sends a message. Proactive: A monitoring agent that detects your server CPU is at 95%, automatically scales up resources, and sends you a Slack alert - all without you asking.\nInterview Tip: Mention that proactive agents need a 'goal loop' or 'event-driven architecture' to keep running in the background. MCP (Model Context Protocol)"
+    },
+    {
+      "question": "What is MCP (Model Context Protocol) and why does it matter?",
+      "answer": "MCP is an open protocol created by Anthropic that standardizes how AI models connect to external tools, data sources, and services. Think of it as the 'USB-C for AI' - before MCP, every tool integration needed custom code. MCP provides a universal interface so any AI model can talk to any tool using a standard format. It follows a client-server architecture where the AI app is the client and each tool/service runs as an MCP server.\nExample:\nWithout MCP: You write custom Python code to connect Claude to Google Drive, then different code for Slack, then different code for GitHub - 3 different integrations. With MCP: Each service exposes an MCP server. Claude connects to all of them using the same protocol. Add a new tool? Just plug in another MCP server.\nInterview Tip: Compare MCP to REST APIs - REST standardized web communication, MCP standardizes AI-tool communication."
+    },
+    {
+      "question": "Explain the MCP architecture - what are Hosts, Clients, and Servers?",
+      "answer": "Host: The AI application the user interacts with (e.g., Claude Desktop, an IDE). Client: Lives inside the host; maintains a 1:1 connection with an MCP server. Server: A lightweight program that exposes specific tools, resources, or prompts via MCP. The host can have multiple clients, each connected to a different server. Communication uses JSON-RPC 2.0 over stdio (local) or HTTP with SSE (remote).\nExample:\nHost: Claude Desktop app Client 1 -> MCP Server: Google Drive (read/write files) Client 2 -> MCP Server: GitHub (create PRs, read issues) Client 3 -> MCP Server: Slack (send messages, read channels) Each server independently exposes its capabilities. The host orchestrates which server to call.\nInterview Tip: Drawing this 3-layer diagram (Host -> Clients -> Servers) instantly shows you understand the architecture."
+    },
+    {
+      "question": "What are the three core primitives that an MCP Server can expose?",
+      "answer": "An MCP server can expose three types of capabilities: (1) Tools - functions the model can call (like search_files, send_email). These are model-controlled. (2) Resources - data the model can read (like file contents, database records). These are application-controlled. (3) Prompts - reusable prompt templates for specific workflows. These are user-controlled. This separation gives fine-grained control over what the AI can do vs. what it can read vs. what templates it can use.\nExample:\nMCP Server for a database:\nTool: run_query(sql) - executes a SQL query Resource: schema://tables - exposes table schemas for context Prompt: 'analyze_data' - a pre-built prompt template for data analysis The model picks which tool to call, the app decides which resources to load, and the user selects prompts.\nInterview Tip: Remember T-R-P (Tools, Resources, Prompts) and who controls each (Model, App, User). A2A (Agent-to-Agent Protocol)"
+    }
+  ]
+}

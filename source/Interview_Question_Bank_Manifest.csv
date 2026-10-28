@@ -1,0 +1,300 @@
+﻿Topic,QuestionID,Question,SourceReferences,SourceCount
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-001,What is Generative AI? How is it different from traditional AI?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.3 Q1,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-002,What is a Large Language Model (LLM)? Name some popular ones.,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.3 Q2,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-003,What is a Transformer? Why is it important for GenAI?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.3 Q3,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-004,What are tokens in LLMs? Why do they matter?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.4 Q4,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-005,What is Hallucination in LLMs? How do you reduce it?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.4 Q5,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-006,What is the difference between Parameters and Hyperparameters in an LLM?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.5 Q6,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-007,What is Temperature in LLMs and when would you use different values?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.5 Q7,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-008,"What is the difference between GPT, BERT, and T5? (Encoder vs Decoder)",30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.5 Q8,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-009,What is RAG (Retrieval Augmented Generation)? Why is it needed?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.7 Q9,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-010,What are Embeddings? Why are they used in RAG?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.7 Q10,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-011,What is a Vector Database? Name some popular ones.,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.7 Q11,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-012,What is Chunking in RAG? What strategies exist?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.8 Q12,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-013,What is the difference between Semantic Search and Keyword Search?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.8 Q13,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-014,What is a Reranker in RAG? Why is it used?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.9 Q14,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-015,What is Prompt Engineering? Why is it important?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.10 Q15,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-016,"What is the difference between Zero-shot, One-shot, and Few-shot Prompting?",30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.10 Q16,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-017,What is Chain-of-Thought (CoT) Prompting?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.10 Q17,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-018,What is Prompt Injection? How do you defend against it?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.11 Q18,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-019,What is a System Prompt? How is it different from a User Prompt?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.11 Q19,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-020,What is an AI Agent? How is it different from a simple LLM call?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.13 Q20,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-021,What is LangChain? Why is it popular for GenAI applications?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.13 Q21,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-022,What are Tools in the context of AI Agents?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.14 Q22,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-023,What is Agent Memory? What are the types?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.14 Q23,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-024,What is Fine-Tuning? When should you fine-tune vs use RAG?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.15 Q24,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-025,What is LoRA? Why is it used for fine-tuning LLMs?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.15 Q25,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-026,What is Transfer Learning? How does it apply to LLMs?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.16 Q26,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-027,What is RAGAS? How do you evaluate a RAG system?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.17 Q27,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-028,What is Responsible AI? What are the key principles?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.17 Q28,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-029,How do you deploy a GenAI application to production?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.18 Q29,1
+Generative AI Fundamentals & Fresher Interviews,GenAI_Fresher_Fundamentals-030,What would you build as your first GenAI project to showcase in an interview?,30_GenAI_Interview_Questions_Freshers_2026_AmanAI_Lab.pdf p.18 Q30,1
+RAG Interview Question Bank,RAG_Interview_Bank-001,What is RAG (Retrieval-Augmented Generation) and why do we need it?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+RAG Interview Question Bank,RAG_Interview_Bank-002,Explain the complete RAG pipeline step by step.,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.5 Q2,1
+RAG Interview Question Bank,RAG_Interview_Bank-003,What are the key components of a RAG system and what choices do you make for each?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.6 Q3,1
+RAG Interview Question Bank,RAG_Interview_Bank-004,Why is chunking important and what happens if you get it wrong?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.7 Q4,1
+RAG Interview Question Bank,RAG_Interview_Bank-005,What are the different chunking methods and when do you use each?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.8 Q5,1
+RAG Interview Question Bank,RAG_Interview_Bank-006,What is chunk overlap and why is it critical?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.9 Q6,1
+RAG Interview Question Bank,RAG_Interview_Bank-007,How do you choose the right embedding model for your RAG system?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.10 Q7,1
+RAG Interview Question Bank,RAG_Interview_Bank-008,Compare the major vector databases — when would you use each?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.11 Q8,1
+RAG Interview Question Bank,RAG_Interview_Bank-009,"What is the difference between HNSW, IVF, and flat search in vector databases?",30_RAG_Interview_Questions_AmanAI_Lab.pdf p.12 Q9,1
+RAG Interview Question Bank,RAG_Interview_Bank-010,What is Hybrid Search and why is it better than pure vector search?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.13 Q10; 30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.3 Q2,2
+RAG Interview Question Bank,RAG_Interview_Bank-011,What is the 'Lost in the Middle' problem and how do you solve it?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.14 Q11; 30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.6 Q5,2
+RAG Interview Question Bank,RAG_Interview_Bank-012,What is Query Transformation and why does it improve RAG?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.15 Q12,1
+RAG Interview Question Bank,RAG_Interview_Bank-013,"What is the difference between Naive RAG, Advanced RAG, and Modular RAG?",30_RAG_Interview_Questions_AmanAI_Lab.pdf p.16 Q13,1
+RAG Interview Question Bank,RAG_Interview_Bank-014,What is Parent-Child chunking (also called hierarchical chunking)?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.17 Q14,1
+RAG Interview Question Bank,RAG_Interview_Bank-015,What is Multi-Index RAG and when do you use it?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.18 Q15,1
+RAG Interview Question Bank,RAG_Interview_Bank-016,What is Reranking and why is it a game-changer for RAG quality?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.19 Q16,1
+RAG Interview Question Bank,RAG_Interview_Bank-017,What is Contextual Compression and how does it help RAG?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.20 Q17,1
+RAG Interview Question Bank,RAG_Interview_Bank-018,How do you handle metadata filtering in RAG retrieval?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.21 Q18,1
+RAG Interview Question Bank,RAG_Interview_Bank-019,How do you evaluate a RAG system? What metrics do you use?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.22 Q19,1
+RAG Interview Question Bank,RAG_Interview_Bank-020,What is RAGAS and how does it work?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.23 Q20,1
+RAG Interview Question Bank,RAG_Interview_Bank-021,How do you create a test set for RAG evaluation?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.24 Q21,1
+RAG Interview Question Bank,RAG_Interview_Bank-022,What are the common failure modes of RAG systems in production?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.25 Q22,1
+RAG Interview Question Bank,RAG_Interview_Bank-023,How do you handle document updates and keep the RAG knowledge base fresh?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.26 Q23,1
+RAG Interview Question Bank,RAG_Interview_Bank-024,How do you add citations and source attribution to RAG answers?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.27 Q24,1
+RAG Interview Question Bank,RAG_Interview_Bank-025,What is Agentic RAG and how is it different from standard RAG?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.28 Q25; 30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.15 Q13,2
+RAG Interview Question Bank,RAG_Interview_Bank-026,"How do you build RAG over tables, charts, and images (Multimodal RAG)?",30_RAG_Interview_Questions_AmanAI_Lab.pdf p.29 Q26,1
+RAG Interview Question Bank,RAG_Interview_Bank-027,What is Graph RAG and when would you use it over standard RAG?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.30 Q27,1
+RAG Interview Question Bank,RAG_Interview_Bank-028,Your RAG system is hallucinating despite having the right documents. How do you fix it?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.31 Q28,1
+RAG Interview Question Bank,RAG_Interview_Bank-029,How do you optimize RAG latency for real-time applications?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.32 Q29,1
+RAG Interview Question Bank,RAG_Interview_Bank-030,How do you handle multi-turn conversations in RAG?,30_RAG_Interview_Questions_AmanAI_Lab.pdf p.33 Q30,1
+RAG Interview Question Bank,RAG_Interview_Bank-031,Explain the complete RAG pipeline end-to-end. What happens at each stage?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.3 Q1,1
+RAG Interview Question Bank,RAG_Interview_Bank-032,What is a reranker? When and why do you add it to a RAG pipeline?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.4 Q3,1
+RAG Interview Question Bank,RAG_Interview_Bank-033,What are the top 5 chunking strategies? Which do you recommend for enterprise PDFs?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.5 Q4,1
+RAG Interview Question Bank,RAG_Interview_Bank-034,What is CRAG (Corrective RAG)? How does it improve standard RAG?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.8 Q6,1
+RAG Interview Question Bank,RAG_Interview_Bank-035,What is Self-RAG? How is it different from CRAG?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.8 Q7,1
+RAG Interview Question Bank,RAG_Interview_Bank-036,What is Anthropic's Contextual Retrieval? What are the exact numbers?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.9 Q8,1
+RAG Interview Question Bank,RAG_Interview_Bank-037,What is GraphRAG (Microsoft)? When does it outperform standard vector RAG?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.10 Q9,1
+RAG Interview Question Bank,RAG_Interview_Bank-038,What is Adaptive RAG? How does it decide when to retrieve?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.11 Q10,1
+RAG Interview Question Bank,RAG_Interview_Bank-039,What is multi-hop RAG? When is it needed and how do you implement it?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.12 Q11,1
+RAG Interview Question Bank,RAG_Interview_Bank-040,What is HyDE (Hypothetical Document Embedding)? When does it improve retrieval?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.13 Q12,1
+RAG Interview Question Bank,RAG_Interview_Bank-041,How do you implement Agentic RAG with LangGraph? Draw the flow.,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.15 Q14,1
+RAG Interview Question Bank,RAG_Interview_Bank-042,How does an Agentic RAG agent decide which tool to use for retrieval?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.16 Q15,1
+RAG Interview Question Bank,RAG_Interview_Bank-043,What is RAG Fusion? How does multi-query retrieval work?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.17 Q16,1
+RAG Interview Question Bank,RAG_Interview_Bank-044,What are the top 5 reasons a RAG system hallucinates? How do you fix each?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.18 Q17,1
+RAG Interview Question Bank,RAG_Interview_Bank-045,How do you reduce RAG latency in production? Target: sub-1-second.,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.20 Q18,1
+RAG Interview Question Bank,RAG_Interview_Bank-046,How do you implement multi-tenant access control in a RAG system?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.20 Q19,1
+RAG Interview Question Bank,RAG_Interview_Bank-047,How does semantic caching work in RAG? What are its limits?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.21 Q20,1
+RAG Interview Question Bank,RAG_Interview_Bank-048,How do you handle document updates in a production RAG system?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.22 Q21,1
+RAG Interview Question Bank,RAG_Interview_Bank-049,How do you design a RAG system for 50M documents at enterprise scale?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.23 Q22,1
+RAG Interview Question Bank,RAG_Interview_Bank-050,What is RAG evaluation? Walk through a complete evaluation pipeline.,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.24 Q23,1
+RAG Interview Question Bank,RAG_Interview_Bank-051,What are RAGAS metrics? Explain each with what failure it catches.,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.26 Q24,1
+RAG Interview Question Bank,RAG_Interview_Bank-052,What are LLM-as-judge biases in RAG evaluation? How do you mitigate them?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.26 Q25,1
+RAG Interview Question Bank,RAG_Interview_Bank-053,RAG is giving wrong answers in production but tests pass. How do you debug?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.27 Q26,1
+RAG Interview Question Bank,RAG_Interview_Bank-054,How do you implement a CI/CD pipeline for a RAG system?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.28 Q27,1
+RAG Interview Question Bank,RAG_Interview_Bank-055,How do you measure and improve RAG cost efficiency?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.29 Q28,1
+RAG Interview Question Bank,RAG_Interview_Bank-056,What is prompt injection via RAG? How do you defend against it?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.31 Q29,1
+RAG Interview Question Bank,RAG_Interview_Bank-057,What is Multimodal RAG? How does it work for documents with images and tables?,30_Advanced_RAG_Interview_Questions_2026_AmanAI_Lab.pdf p.31 Q30,1
+LLM Interview Question Bank,LLM_Interview_Bank-001,What is a Large Language Model (LLM) and how does it actually work?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+LLM Interview Question Bank,LLM_Interview_Bank-002,What is the difference between Pre-training and Post-training?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.5 Q2,1
+LLM Interview Question Bank,LLM_Interview_Bank-003,What are the key parameters that differentiate LLMs — what makes one model better than another?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.6 Q3,1
+LLM Interview Question Bank,LLM_Interview_Bank-004,What is tokenization in LLMs and why doesn't the model see raw text?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.7 Q4,1
+LLM Interview Question Bank,LLM_Interview_Bank-005,What are embeddings and why are they so important for LLMs?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.8 Q5,1
+LLM Interview Question Bank,LLM_Interview_Bank-006,"What is the difference between sparse and dense embeddings, and when do you use each?",30_LLM_Interview_Questions_AmanAI_Lab.pdf p.9 Q6,1
+LLM Interview Question Bank,LLM_Interview_Bank-007,Explain the Self-Attention mechanism in simple terms — why is it the core of every LLM?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.10 Q7,1
+LLM Interview Question Bank,LLM_Interview_Bank-008,"What is the difference between MHA, MQA, and GQA? Why does it matter?",30_LLM_Interview_Questions_AmanAI_Lab.pdf p.11 Q8,1
+LLM Interview Question Bank,LLM_Interview_Bank-009,What is the KV Cache and why is it critical for LLM inference?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.12 Q9,1
+LLM Interview Question Bank,LLM_Interview_Bank-010,What is Fine-Tuning and when should you use it vs Prompt Engineering vs RAG?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.13 Q10,1
+LLM Interview Question Bank,LLM_Interview_Bank-011,What is LoRA and QLoRA? Why are they game-changers for fine-tuning?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.14 Q11,1
+LLM Interview Question Bank,LLM_Interview_Bank-012,"What is RLHF, DPO, and RLVR? How do they align LLMs to human preferences?",30_LLM_Interview_Questions_AmanAI_Lab.pdf p.15 Q12,1
+LLM Interview Question Bank,LLM_Interview_Bank-013,What are the key prompt engineering techniques and when do you use each?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.16 Q13,1
+LLM Interview Question Bank,LLM_Interview_Bank-014,"What is the difference between Temperature, Top-K, and Top-P sampling?",30_LLM_Interview_Questions_AmanAI_Lab.pdf p.17 Q14,1
+LLM Interview Question Bank,LLM_Interview_Bank-015,What is Structured Output and why is it important for production LLM apps?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.18 Q15,1
+LLM Interview Question Bank,LLM_Interview_Bank-016,What are hallucinations in LLMs and why do they happen?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.19 Q16,1
+LLM Interview Question Bank,LLM_Interview_Bank-017,What is Prompt Injection and how do you defend against it?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.20 Q17,1
+LLM Interview Question Bank,LLM_Interview_Bank-018,What are Guardrails in LLM applications and how do you implement them?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.21 Q18,1
+LLM Interview Question Bank,LLM_Interview_Bank-019,What is a context window and why can't we just make it infinitely large?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.22 Q19,1
+LLM Interview Question Bank,LLM_Interview_Bank-020,What is RoPE (Rotary Position Embedding) and why do modern LLMs use it?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.23 Q20,1
+LLM Interview Question Bank,LLM_Interview_Bank-021,What is the difference between context window and memory in LLMs?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.24 Q21,1
+LLM Interview Question Bank,LLM_Interview_Bank-022,How do you evaluate an LLM? What metrics do you use?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.25 Q22,1
+LLM Interview Question Bank,LLM_Interview_Bank-023,What is LLM-as-a-Judge and what are its limitations?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.26 Q23,1
+LLM Interview Question Bank,LLM_Interview_Bank-024,What are the most important LLM benchmarks in 2026 and what does each test?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.27 Q24,1
+LLM Interview Question Bank,LLM_Interview_Bank-025,How do you reduce LLM API costs by 70% or more in production?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.28 Q25,1
+LLM Interview Question Bank,LLM_Interview_Bank-026,What is Model Quantization and how does it make LLMs faster and cheaper?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.29 Q26,1
+LLM Interview Question Bank,LLM_Interview_Bank-027,What is vLLM and why is it the standard for LLM serving in production?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.30 Q27,1
+LLM Interview Question Bank,LLM_Interview_Bank-028,What are Mixture-of-Experts (MoE) models and why are they dominating in 2026?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.31 Q28,1
+LLM Interview Question Bank,LLM_Interview_Bank-029,"What are Reasoning Models (o1, DeepSeek-R1) and how are they different from regular LLMs?",30_LLM_Interview_Questions_AmanAI_Lab.pdf p.32 Q29,1
+LLM Interview Question Bank,LLM_Interview_Bank-030,What are Small Language Models (SLMs) and why are companies moving toward them?,30_LLM_Interview_Questions_AmanAI_Lab.pdf p.33 Q30,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-001,What is Prompt Engineering and why is it considered a critical skill in 2026?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-002,What are the key components of a well-structured prompt?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.5 Q2,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-003,"What is the difference between Zero-Shot, One-Shot, and Few-Shot prompting?",30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.6 Q3,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-004,How do you select the best examples for few-shot prompting?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.7 Q4,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-005,What is In-Context Learning (ICL) and how is it different from fine-tuning?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.8 Q5,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-006,What is Dynamic Few-Shot and how do you implement it?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.9 Q6,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-007,What is Chain-of-Thought (CoT) prompting and when should you use it?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.10 Q7,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-008,What is Self-Consistency and how does it improve CoT?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.11 Q8,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-009,What is Tree-of-Thought (ToT) and how is it different from Chain-of-Thought?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.12 Q9,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-010,What is a System Prompt and what should it contain?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.13 Q10,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-011,How does role prompting affect LLM output quality?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.14 Q11,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-012,How do you handle multi-persona prompts where the model needs to act as different experts?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.15 Q12,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-013,How do you reliably get JSON output from an LLM?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.16 Q13,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-014,How do you use XML tags and delimiters to structure prompts?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.17 Q14,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-015,How do you control output length and verbosity in LLMs?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.18 Q15,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-016,How do you optimize prompts to reduce LLM API costs?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.19 Q16,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-017,What is Prompt Caching and how does it work?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.20 Q17,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-018,What is DSPy and how does it automate prompt optimization?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.21 Q18,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-019,What is Prompt Injection and what are the different types?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.22 Q19,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-020,What are the defense strategies against prompt injection?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.23 Q20,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-021,What is Prompt Leaking and how do you prevent the system prompt from being extracted?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.25 Q21,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-022,What is Prompt Chaining and when should you use it?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.26 Q22,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-023,What is Retrieval-Augmented Prompting and how does it differ from RAG?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.27 Q23,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-024,What is Constitutional AI and Self-Critique prompting?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.28 Q24,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-025,How do you evaluate whether a prompt is good? What metrics do you use?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.29 Q25,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-026,How do you version control and manage prompts in production?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.30 Q26,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-027,What is Prompt Regression Testing and why is it important?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.31 Q27,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-028,How do you handle prompt failures gracefully in production?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.33 Q28,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-029,How do you manage prompts across multiple LLM providers?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.34 Q29,1
+Prompt Engineering Interview Question Bank,Prompt_Engineering_Interview_Bank-030,What does a Prompt Engineering workflow look like in a production team?,30_Prompt_Engineering_Interview_Questions_AmanAI_Lab.pdf p.35 Q30,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-001,"What is an AI Agent, and how is it different from a regular chatbot?",30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-002,What is the ReAct (Reasoning + Acting) pattern in AI Agents?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.4 Q2,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-003,What is the difference between Reactive and Proactive agents?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.5 Q3,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-004,What is MCP (Model Context Protocol) and why does it matter?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.5 Q4,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-005,"Explain the MCP architecture - what are Hosts, Clients, and Servers?",30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.6 Q5,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-006,What are the three core primitives that an MCP Server can expose?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.6 Q6,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-007,What is A2A (Agent-to-Agent Protocol) and how is it different from MCP?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.7 Q7; 30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.11 Q17,2
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-008,What is an Agent Card in A2A?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.8 Q8,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-009,What is a Task in A2A and what are its lifecycle states?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.8 Q9,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-010,What is Tool Calling (Function Calling) in LLMs and how does it work?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.9 Q10,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-011,How do you handle errors and hallucinated tool calls?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.9 Q11,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-012,What is Parallel Tool Calling and when would you use it?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.10 Q12,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-013,What are the different types of memory in AI Agents?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.11 Q13,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-014,How do you implement long-term memory in an AI Agent?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.11 Q14,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-015,What is the 'memory overflow' problem and how do you solve it?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.12 Q15,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-016,What is RAG and how is it fundamentally different from AI Agents?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.13 Q16,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-017,When should you use RAG vs an Agent vs both together?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.13 Q17,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-018,What is Agentic RAG and how is it different from basic RAG?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.14 Q18,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-019,What are Multi-Agent Systems and why are they useful?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.15 Q19,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-020,What are the common communication patterns in Multi-Agent Systems?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.16 Q20,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-021,How do you handle conflicts when multiple agents disagree?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.17 Q21,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-022,What is LangGraph and how is it different from LangChain?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.18 Q22; 30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.5 Q6,2
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-023,"Explain the core concepts of LangGraph: State, Nodes, and Edges.",30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.19 Q23,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-024,What is Human-in-the-Loop in LangGraph and why is it important?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.20 Q24,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-025,What is CrewAI and how does it simplify building multi-agent systems?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.21 Q25,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-026,What are the different Process types in CrewAI?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.22 Q26,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-027,How does CrewAI compare to LangGraph for building agents?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.23 Q27,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-028,How do you evaluate an AI Agent's performance?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.24 Q28,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-029,What is Agent Benchmarking and what are popular benchmarks?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.25 Q29,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-030,How do you test agents in production and handle failures?,30_AI_Agent_Interview_Questions_AmanAI_Lab.pdf p.26 Q30,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-031,"What is the difference between ReAct, Plan-and-Execute, and Reflection agent patterns?",30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.2 Q1,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-032,How do you prevent an AI agent from entering an infinite loop in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.2 Q2,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-033,What is the difference between tool calling and function calling in AI agents?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.3 Q3,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-034,What is agent memory? Explain the 4 types with production examples.,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.3 Q4,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-035,What is Human-in-the-Loop (HITL) and how do you implement it in a production agent?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.3 Q5,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-036,"Explain LangGraph's StateGraph — what are nodes, edges, and state?",30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.5 Q7,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-037,What is checkpointing in LangGraph and why is it critical for production agents?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.6 Q8,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-038,How do you implement a supervisor pattern in LangGraph for multi-agent systems?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.6 Q9,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-039,What is LangSmith and how do you use it for agent observability?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.6 Q10,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-040,What is CrewAI? When would you choose it over LangGraph?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.8 Q11,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-041,How does CrewAI's hierarchical process work? When should you use it?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.8 Q12,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-042,What is AutoGen (AG2)? How does it differ from CrewAI and LangGraph?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.9 Q13,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-043,How do you design a multi-agent system where agents have different capabilities and models?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.9 Q14,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-044,What are the key anti-patterns in multi-agent system design?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.9 Q15,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-045,What is MCP (Model Context Protocol)? How does it change agent tool integration?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.11 Q16,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-046,What is MCP tool poisoning? How do you defend against it in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.12 Q18,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-047,How does an agent discover and use MCP tools dynamically?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.12 Q19,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-048,How do you handle authentication and authorization in MCP tool calls?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.13 Q20,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-049,How do you control costs in a production multi-agent system?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.14 Q21,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-050,How do you implement guardrails for an AI agent in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.14 Q22,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-051,How do you implement observability for a multi-agent system in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.15 Q23,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-052,What is the difference between synchronous and asynchronous agent execution? When to use each?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.15 Q24,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-053,How do you design an agent for high availability (99.9% uptime) in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.16 Q25,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-054,What is trajectory evaluation for AI agents? Why is it different from output evaluation?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.17 Q26,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-055,How do you debug an agent that works in testing but fails in production?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.17 Q27,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-056,How do you build a golden dataset for agent evaluation?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.18 Q28,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-057,What is LLM-as-Judge for agent evaluation? What are its biases?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.18 Q29,1
+AI Agent Interview Question Bank,AI_Agents_Interview_Bank-058,How do you implement CI/CD for an agent application — what tests run before deployment?,30_Advanced_AI_Agent_Interview_Questions_2026_AmanAI_Lab.pdf p.19 Q30,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-001,What is Agentic AI and how is it fundamentally different from traditional LLM applications?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-002,What are the core components every production AI agent must have?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.4 Q2,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-003,What is the ReAct pattern and why is it the foundation of modern AI agents?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.5 Q3,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-004,What is Agentic RAG and how is it fundamentally different from standard RAG?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.6 Q4,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-005,How do you implement query routing in Agentic RAG?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.7 Q5,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-006,How does an agent decide when retrieved context is insufficient and what does it do?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.8 Q6,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-007,When should you use a single agent vs a multi-agent system?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.9 Q7,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-008,What is the Orchestrator-Worker pattern in multi-agent systems?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.10 Q8,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-009,How do agents communicate with each other in a multi-agent system?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.11 Q9,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-010,Explain the 4 types of memory in production AI agents with real examples.,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.12 Q10,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-011,How do you implement persistent memory for agents across sessions?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.13 Q11,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-012,How do you manage agent state in long-running autonomous workflows?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.14 Q12,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-013,How do you design a robust tool system for production AI agents?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.15 Q13,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-014,How do you handle tool failures and errors in production agents?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.17 Q14,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-015,What is parallel tool calling and when do you use it in agentic workflows?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.18 Q15,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-016,"What is the difference between ReAct, Plan-and-Execute, and Tree-of-Thought agent architectures?",30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.19 Q16,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-017,How do you prevent AI agents from getting stuck in infinite loops?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.20 Q17,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-018,How do you implement Human-in-the-Loop (HITL) for production AI agents?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.21 Q18,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-019,"How do you design an agentic system that costs $100/month instead of $10,000/month?",30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.23 Q19,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-020,How do you monitor and debug AI agents in production?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.24 Q20,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-021,"How do you scale agentic systems to handle 10,000 concurrent agent runs?",30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.24 Q21,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-022,How do you evaluate the quality of an AI agent's performance?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.26 Q22,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-023,What is agent benchmarking and which benchmarks matter in 2026?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.27 Q23,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-024,How do you implement observability for agentic AI systems?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.28 Q24,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-025,What are the unique security risks of agentic AI systems and how do you mitigate them?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.29 Q25,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-026,How do you implement the principle of least privilege for AI agents?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.30 Q26,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-027,How do you handle the alignment problem in production AI agents — ensuring agents do what they're supposed to do?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.31 Q27,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-028,What is MCP (Model Context Protocol) and how has it changed how agents use tools?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.32 Q28,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-029,What are the major challenges preventing AI agents from being fully autonomous in 2026?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.33 Q29,1
+Agentic AI Interview Question Bank,Agentic_AI_Interview_Bank-030,What is the future of Agentic AI — where is the field heading in the next 2-3 years?,30_Agentic_AI_Interview_Questions_AmanAI_Lab.pdf p.34 Q30,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-001,What does an AI Engineer do and how is the role different from a Data Scientist or ML Engineer?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.4 Q1,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-002,What is the AI Engineer tech stack in 2026?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.4 Q2,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-003,How do you approach building an AI product from scratch? Walk me through your process.,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.5 Q3,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-004,How do you choose the right LLM for a production use case?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.7 Q4,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-005,"What is the difference between GPT-4, Claude, Gemini, and Llama 3? When do you use each?",30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.8 Q5,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-006,When should you fine-tune a model vs use RAG vs use prompt engineering?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.9 Q6,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-007,Design a production RAG system for a company with 100K documents.,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.10 Q7,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-008,Design a multi-tenant AI platform where different customers have isolated data and models.,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.11 Q8,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-009,How do you design an AI system that handles 1 million queries per day reliably?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.12 Q9,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-010,What are the most common RAG failures and how do you fix each one?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.14 Q10,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-011,What is HyDE and when do you use it to improve RAG?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.15 Q11,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-012,How do you handle multi-hop questions in RAG that require connecting information from multiple documents?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.16 Q12,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-013,How do you build a production AI agent using LangGraph?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.17 Q13,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-014,How do you handle tool errors and retries in production AI agents?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.19 Q14,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-015,How do you implement streaming responses in AI applications for better user experience?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.21 Q15,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-016,How do you deploy an AI application to production with zero downtime?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.23 Q16,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-017,How do you containerize and orchestrate AI applications with Docker and Kubernetes?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.24 Q17,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-018,How do you implement proper logging and error handling in production AI applications?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.25 Q18,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-019,How do you build a comprehensive evaluation pipeline for AI applications?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.28 Q19,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-020,What is LLM-as-judge and how do you implement it reliably?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.29 Q20,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-021,How do you create and maintain a golden evaluation dataset for AI systems?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.31 Q21,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-022,How do you reduce LLM costs by 80% without sacrificing quality?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.32 Q22,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-023,How do you implement and measure the ROI of an AI system?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.34 Q23,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-024,How do you handle token limits and context window management in production?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.35 Q24,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-025,How do you implement guardrails for production AI applications?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.37 Q25,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-026,What is indirect prompt injection and how do you defend against it in AI agents?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.38 Q26,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-027,"How do you ensure AI systems are fair, unbiased, and compliant with regulations?",30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.41 Q27,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-028,What is MCP (Model Context Protocol) and how does it change AI engineering?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.42 Q28,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-029,What is the difference between AI Agents and AI Workflows and when do you use each?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.43 Q29,1
+AI Engineer Interview Question Bank,AI_Engineering_Interview_Bank-030,Where is AI Engineering heading in the next 2-3 years and how should you prepare?,30_AI_Engineer_Interview_Questions_AmanAI_Lab.pdf p.44 Q30,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-001,"When would you choose Fine-Tuning over RAG, and when would you choose RAG?",AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.4 Q1,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-002,"How do you decide between GPT-5, Claude 4.7, and open-source Llama 4 for your project?",AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.5 Q2,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-003,Your RAG system is giving wrong answers in production. How do you debug it?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.6 Q3,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-004,How would you design a chatbot that needs to search across 1 million documents?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.7 Q4,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-005,When does Prompt Engineering stop being enough and you need Fine-Tuning?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.8 Q5,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-006,How do you handle a query that needs information from multiple documents?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.9 Q6,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-007,"What is the difference between Pretraining, Fine-tuning, and Instruction Tuning?",AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.10 Q7,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-008,How would you design a GenAI app to handle 1 million daily users?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.11 Q8,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-009,Your LLM API bill hit 50 lakh rupees per month. How do you cut it by 70%?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.12 Q9; AmanAI_Lab_5_Production_GenAI_Interview_Questions.pdf p.5 Q2,2
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-010,Your chatbot needs to respond in under 500ms. How do you achieve this?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.13 Q10,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-011,How do you monitor a GenAI app in production?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.14 Q11,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-012,"Your GenAI app worked great for 6 months, then started failing. What happened?",AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.15 Q12,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-013,How do you do A/B testing on prompts in production?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.16 Q13,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-014,How would you build a HIPAA-compliant GenAI app for a hospital?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.17 Q14,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-015,How do you prevent sensitive data from leaking through LLM responses?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.18 Q15,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-016,How do you implement role-based access control in a RAG system?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.19 Q16,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-017,How do you handle PII (Personal Identifiable Information) in your training data?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.20 Q17,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-018,How do you defend your LLM app against Prompt Injection in production?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.21 Q18,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-019,How do you ensure compliance auditors can verify what your AI is doing?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.22 Q19,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-020,How do you handle data residency requirements (data cannot leave the country)?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.23 Q20,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-021,How do you measure if your RAG system is actually working well?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.24 Q21,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-022,How do you detect hallucinations automatically in production?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.25 Q22,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-023,Your AI gave an offensive response that went viral. How do you respond?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.26 Q23,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-024,How do you build a regression test suite for prompts?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.27 Q24,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-025,What is the difference between offline and online evaluation?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.28 Q25,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-026,When would you build an Agentic system vs a simple LLM call?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.29 Q26,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-027,How do you prevent agents from getting stuck in infinite loops?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.30 Q27,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-028,What is MCP (Model Context Protocol) and why is it transforming GenAI in 2026?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.31 Q28,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-029,What is Agentic AI? Why is it the biggest GenAI trend in 2026?,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.32 Q29,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-030,Tell me about a GenAI project that failed in production and what you learned.,AmanAI_Lab_30_Real_GenAI_Interview_Questions_2026.pdf p.33 Q30,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-031,Design a production-grade RAG system for an enterprise with 1 million documents,AmanAI_Lab_5_Production_GenAI_Interview_Questions.pdf p.3 Q1,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-032,Your chatbot must respond in under 500ms. Current latency is 3 seconds. How?,AmanAI_Lab_5_Production_GenAI_Interview_Questions.pdf p.7 Q3,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-033,How do you evaluate a RAG system in production? Build the full pipeline.,AmanAI_Lab_5_Production_GenAI_Interview_Questions.pdf p.9 Q4,1
+Production GenAI & Real-Interview Scenarios,Production_GenAI_Interview_Bank-034,"How do you secure a GenAI app handling sensitive data (PII, financial, medical)?",AmanAI_Lab_5_Production_GenAI_Interview_Questions.pdf p.11 Q5,1

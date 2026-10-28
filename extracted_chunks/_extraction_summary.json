@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "AI_Agents_Interview_Bank.docx",
+    "slug": "ai_agents_interview_bank",
+    "topicName": "AI Agents Interview Bank",
+    "totalQAPairs": 58,
+    "totalChunks": 10
+  },
+  {
+    "filename": "AI_Engineering_Interview_Bank.docx",
+    "slug": "ai_engineering_interview_bank",
+    "topicName": "AI Engineering Interview Bank",
+    "totalQAPairs": 30,
+    "totalChunks": 5
+  },
+  {
+    "filename": "Agentic_AI_Interview_Bank.docx",
+    "slug": "agentic_ai_interview_bank",
+    "topicName": "Agentic AI Interview Bank",
+    "totalQAPairs": 30,
+    "totalChunks": 5
+  },
+  {
+    "filename": "GenAI_Fresher_Fundamentals.docx",
+    "slug": "genai_fresher_fundamentals",
+    "topicName": "GenAI Fresher Fundamentals",
+    "totalQAPairs": 30,
+    "totalChunks": 5
+  },
+  {
+    "filename": "LLM_Interview_Bank.docx",
+    "slug": "llm_interview_bank",
+    "topicName": "LLM Interview Bank",
+    "totalQAPairs": 30,
+    "totalChunks": 5
+  },
+  {
+    "filename": "Production_GenAI_Interview_Bank.docx",
+    "slug": "production_genai_interview_bank",
+    "topicName": "Production GenAI Interview Bank",
+    "totalQAPairs": 34,
+    "totalChunks": 6
+  },
+  {
+    "filename": "Prompt_Engineering_Interview_Bank.docx",
+    "slug": "prompt_engineering_interview_bank",
+    "topicName": "Prompt Engineering Interview Bank",
+    "totalQAPairs": 30,
+    "totalChunks": 5
+  },
+  {
+    "filename": "RAG_Interview_Bank.docx",
+    "slug": "rag_interview_bank",
+    "topicName": "RAG Interview Bank",
+    "totalQAPairs": 57,
+    "totalChunks": 10
+  }
+]

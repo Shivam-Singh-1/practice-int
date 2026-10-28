@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Network Engineer Interview Prep — MCQ Study App</title>
+  <meta name="description" content="Offline-capable MCQ study app with 252 interview-style questions covering Networking Fundamentals, Devices, IP Addressing, TCP/UDP Services, Switching, Routing/OSPF/BGP, Linux Networking, and Packet Analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Mobile overlay -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-brand">
+        <div class="sidebar-brand-icon">🌐</div>
+        <div>
+          <h1>Network Prep</h1>
+          <div class="subtitle">Interview Question Bank</div>
+        </div>
+      </div>
+      <div class="sidebar-stats">
+        <div class="stat-pill">
+          <span class="stat-value" id="stat-total">0</span>
+          <span class="stat-label">Total</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-value" id="stat-answered">0</span>
+          <span class="stat-label">Done</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-value" id="stat-correct">0</span>
+          <span class="stat-label">Correct</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-search">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input
+          type="text"
+          class="search-input"
+          id="search-input"
+          placeholder="Search questions..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <div class="sidebar-filters">
+      <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+      <button class="filter-btn" data-filter="unanswered" id="filter-unanswered">New</button>
+      <button class="filter-btn" data-filter="incorrect" id="filter-incorrect">Wrong</button>
+      <button class="filter-btn" data-filter="bookmarked" id="filter-bookmarked">Saved</button>
+    </div>
+
+    <div class="sidebar-topics" id="topic-list"></div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main-content">
+    <header class="main-header">
+      <div style="display:flex;align-items:center;">
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle sidebar">☰</button>
+        <h2 class="main-title" id="main-title">
+          Select a Topic
+          <span class="question-count" id="question-count"></span>
+        </h2>
+      </div>
+      <div class="main-actions">
+        <button class="action-btn" id="review-toggle">
+          📖 Review
+        </button>
+        <button class="action-btn" id="reset-btn">
+          ↻ Reset
+        </button>
+      </div>
+    </header>
+
+    <div class="questions-container" id="questions-container">
+      <div class="welcome-state" id="welcome-state">
+        <div class="welcome-icon">🌐</div>
+        <h2>Ready to ace your Network Engineer interview?</h2>
+        <p>Pick a topic from the sidebar to start practicing with 252 interview-style questions from your study guide.</p>
+      </div>
+    </div>
+    <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top" title="Back to top">↑</button>
+  </main>
+
+  <!-- Load all topic data files -->
+  <script src="src/data/topics/networking_fundamentals.js"></script>
+  <script src="src/data/topics/networking_devices.js"></script>
+  <script src="src/data/topics/ip_addressing_subnetting.js"></script>
+  <script src="src/data/topics/tcp_udp_services.js"></script>
+  <script src="src/data/topics/switching_layer2.js"></script>
+  <script src="src/data/topics/routing_ospf_bgp.js"></script>
+  <script src="src/data/topics/linux_networking.js"></script>
+  <script src="src/data/topics/network_troubleshooting.js"></script>
+  <script src="src/data/questionsData.js"></script>
+
+  <!-- Application logic -->
+  <script src="app.js"></script>
+</body>
+</html>
